@@ -28,7 +28,7 @@
       </div>
       <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
       <!-- Button trigger modal -->
-        <%= link_to 'Contribute Your Quote', '#', data: {toggle: 'modal', target: '#myModal'} %>
+        <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
         &nbsp;&nbsp;
         <%= link_to 'About', about_path %>
       </div>
@@ -46,18 +46,20 @@
             <h4 class="modal-title" id="myModalLabel">Contribute Your Quote</h4>
           </div>
           <%= simple_form_for Quote.new do |f| %>
-          <div class="modal-body">
-             <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "Fear is the disease. Hustle is the antidote." %>
-              <br />
-             <%= f.input :author, label: "Who is the author of the quote?", placeholder: "Travis Kalanick" %>
-          <br />
+        <div class="modal-body">
+          <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "Fear is the disease. Hustle is the antidote." %>
+            <br />
+          <%= f.input :author, label: "Who is the author of the quote?", placeholder: "Travis Kalanick" %>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <%= f.submit 'Create', class: 'btn btn-danger' %>
-        <% end %>
+        </div>
+      <% end %>
           </div>
           <%= simple_form_for Quote.new do |f| %>
         
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           
         </div>
       <% end %>
