@@ -1,24 +1,14 @@
-# README
+<h1>Splurty</h1>
+<h2>Ruby version -- 2.3.0</h2>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Features:
+<ul>
+  <li> Data-base powered quote generator with mobile-first-design</li>
 
-Things you may want to cover:
+   <li> Ruby on Rails, HTML and CSS</li?
 
-* Ruby version
+</ul
 
-* System dependencies
+Check out this screen this out my app in action!
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![](/blob/master/app/assets/images/splurtyss.png)
