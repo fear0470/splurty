@@ -1,5 +1,5 @@
 <h1>Splurty</h1>
-<h2>Ruby version -- 2.3.0</h2>
+<h2>Ruby version -- 2.5.2</h2>
 
 Features:
 <ul>
@@ -11,4 +11,4 @@ Features:
 
 Check out this screen this out my app in action!
 
-![](/blob/master/app/assets/images/splurtyss.png)
+![](app/assets/images/splurtyss.png)
