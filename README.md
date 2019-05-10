@@ -5,9 +5,9 @@ Features:
 <ul>
   <li> Data-base powered quote generator with mobile-first-design</li>
 
-   <li> Ruby on Rails, HTML and CSS</li?
+   <li> Ruby on Rails, HTML and CSS</li>
 
-</ul
+</ul>
 
 Check out this screen this out my app in action!
 
